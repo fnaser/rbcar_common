@@ -147,12 +147,12 @@
   <transmission name="left_front_shock_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="left_front_shock">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="left_front_shock_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -183,12 +183,12 @@
   <transmission name="left_steering_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="left_steering_joint">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="left_steering_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -225,12 +225,12 @@
   <transmission name="left_front_axle_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="left_front_axle">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="left_front_axle_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -269,12 +269,12 @@
   <transmission name="right_front_shock_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="right_front_shock">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="right_front_shock_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -305,12 +305,12 @@
   <transmission name="right_steering_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="right_steering_joint">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="right_steering_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -347,12 +347,12 @@
   <transmission name="right_front_axle_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="right_front_axle">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="right_front_axle_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -391,12 +391,12 @@
   <transmission name="left_rear_shock_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="left_rear_shock">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="left_rear_shock_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -430,12 +430,12 @@
   <transmission name="left_rear_axle_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="left_rear_axle">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="left_rear_axle_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -474,12 +474,12 @@
   <transmission name="right_rear_shock_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="right_rear_shock">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="right_rear_shock_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
@@ -513,12 +513,12 @@
   <transmission name="right_rear_axle_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="right_rear_axle">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="right_rear_axle_act">
       <!-- This hardwareInterface element exists for compatibility
              with ROS Hydro. -->
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
